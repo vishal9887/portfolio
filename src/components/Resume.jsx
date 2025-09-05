@@ -27,7 +27,7 @@ const Resume = () => {
             <img src={backend} alt="resume" className='w-16 h-16 object-contain' />
             <h3
   className='text-white text-[20px] font-bold text-center cursor-pointer'
-  onClick={() => window.open("https://drive.google.com/file/d/1dj9jzcFhBCBv1cG1vUE16O806x02dwDn/view")}
+  onClick={() => window.open("https://drive.google.com/file/d/1LW2f1stUYb4yu8LSbcy_mFyMyRTGuZdC/view?usp=sharing")}
 >
   Click Here
 </h3>
