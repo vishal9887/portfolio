@@ -1,106 +1,59 @@
-import { title } from "framer-motion/m";
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
-  
-  export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-    {
-      id:"resume",
-      title:"Resume",
-    }
-  ];
-  
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "Frontend Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-   
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-  
-    {
-      name: "git",
-      icon: git,
-    },
-  ];
-  
- const experiences = [
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  meta,
+  starbucks,
+  tesla,
+  shopify,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+  edemy,
+  fooddelivery,
+  chatapp,
+} from "../assets";
+
+export const navLinks = [
+  { id: "about", title: "About" },
+  { id: "work", title: "Work" },
+  { id: "contact", title: "Contact" },
+  { id: "resume", title: "Resume" },
+];
+
+const services = [
+  { title: "Web Developer", icon: web },
+  { title: "Frontend Developer", icon: mobile },
+  { title: "Backend Developer", icon: backend },
+];
+
+const technologies = [
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "JavaScript", icon: javascript },
+  { name: "React JS", icon: reactjs },
+  { name: "Redux Toolkit", icon: redux },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "Node JS", icon: nodejs },
+  { name: "MongoDB", icon: mongodb },
+  { name: "git", icon: git },
+];
+
+const experiences = [
   {
     title: "MERN Stack Developer Intern",
     company_name: "Urban Orbits",
@@ -110,15 +63,12 @@ import {
       "Built and optimized 18+ REST APIs using Node.js and Express, reducing API response time by 50% through query optimization and MongoDB indexing.",
       "Implemented secure user authentication and role-based authorization with JWT and bcrypt, ensuring data protection and controlled access.",
       "Developed 25+ reusable, responsive React components with TailwindCSS and Context API, enhancing UI consistency across web and mobile platforms.",
-      "Integrated third-party APIs (payment gateway, email services) to deliver seamless real-world functionality and improve user experience."
+      "Integrated third-party APIs (payment gateway, email services) to deliver seamless real-world functionality and improve user experience.",
     ],
   },
 ];
 
-  
-  
-  
-  cconst projects = [
+const projects = [
   {
     name: "Edemy - An LMS Website",
     description:
@@ -130,7 +80,7 @@ import {
       { name: "clerk", color: "orange-text-gradient" },
       { name: "stripe", color: "purple-text-gradient" },
     ],
-    image: edemy, // replace with your imported project image
+    image: edemy,
     source_code_link: "https://github.com/vishal9887/LMS",
   },
   {
@@ -144,7 +94,7 @@ import {
       { name: "stripe", color: "purple-text-gradient" },
       { name: "tailwind", color: "orange-text-gradient" },
     ],
-    image: fooddelivery, // replace with your imported project image
+    image: fooddelivery,
     source_code_link: "https://github.com/vishal9887/Food_Delivery",
   },
   {
@@ -158,10 +108,9 @@ import {
       { name: "socketio", color: "purple-text-gradient" },
       { name: "tailwind", color: "orange-text-gradient" },
     ],
-    image: chatapp, // replace with your imported project image
+    image: chatapp,
     source_code_link: "https://github.com/vishal9887/Chatapplication",
   },
 ];
 
-  
-  export { services, technologies, experiences,  projects };
+export { services, technologies, experiences, projects };
